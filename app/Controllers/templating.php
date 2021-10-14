@@ -46,7 +46,7 @@ class Templating extends BaseController
             'password' => $request->getVar('password'),
         ];
         $this->userModel->insert($data);
-        return redirect()->to(base_url('v_register'));
+        return redirect()->to('v_register');
     }
 
-
+}
