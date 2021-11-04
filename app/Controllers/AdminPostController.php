@@ -3,7 +3,7 @@
 namespace App\Controllers;
 use App\Controllers\BaseController;
 
-class AdminPostsController extends BaseController
+class AdminPostController extends BaseController
 {
     public function index()
     {
